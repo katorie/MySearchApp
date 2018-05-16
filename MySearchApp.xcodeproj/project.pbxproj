@@ -12,6 +12,7 @@
 		EA35AA7F20AC017300908F53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA35AA7D20AC017300908F53 /* Main.storyboard */; };
 		EA35AA8120AC017700908F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA35AA8020AC017700908F53 /* Assets.xcassets */; };
 		EA35AA8420AC017700908F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA35AA8220AC017700908F53 /* LaunchScreen.storyboard */; };
+		EA35AA8C20AC145100908F53 /* ItemSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35AA8B20AC145100908F53 /* ItemSearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EA35AA8020AC017700908F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA35AA8320AC017700908F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA35AA8520AC017700908F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA35AA8B20AC145100908F53 /* ItemSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				EA35AA7920AC017300908F53 /* AppDelegate.swift */,
 				EA35AA7B20AC017300908F53 /* ViewController.swift */,
+				EA35AA8B20AC145100908F53 /* ItemSearchResult.swift */,
 				EA35AA7D20AC017300908F53 /* Main.storyboard */,
 				EA35AA8020AC017700908F53 /* Assets.xcassets */,
 				EA35AA8220AC017700908F53 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA35AA8C20AC145100908F53 /* ItemSearchResult.swift in Sources */,
 				EA35AA7C20AC017300908F53 /* ViewController.swift in Sources */,
 				EA35AA7A20AC017300908F53 /* AppDelegate.swift in Sources */,
 			);
